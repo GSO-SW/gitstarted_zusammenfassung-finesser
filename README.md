@@ -9,14 +9,15 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 
 ## TODO
 - Begriffe definieren und erklären (z.B. repository, branch etc.)
+Repository	: In ein Repository bzw. einem Repo befinden sich alle Dateien inklusive derer vorangegangenen Versionen. Dadurch stehen stets alle Änderungen zur Verfügung, die von einer Datei ins Repo gespielt wurden und es kann nachvollzogen werden Wer, Wann, welche Änderungen durchgeführt hat.
+Branch		:Beim Einsatz von Git dienen Branches (engl.: to branch - sich verzweigen) dazu, um einen separaten Arbeitszweig zu erstellen. Dieser kann dann auch als neuer Kontext gesehen werden, in dem gearbeitet wird.
+Master		:Die Standardbezeichnung für einen Branch bei Git lautet master . Wenn Sie damit beginnen, Commits durchzuführen, erhalten Sie einen master Branch, der auf den letzten Commit zeigt, den Sie gemacht haben.
+Staging Area:Die Staging-Area ist in der Regel eine Datei, die sich in Ihrem Git-Verzeichnis befindet und Informationen darüber speichert, was in Ihren nächsten Commit einfließen soll.
+Working Dire:Das Arbeitsverzeichnis von Git (in anderen Systemen manchmal auch Sandbox oder Checkout genannt). Hier nehmen Sie alle Modifikationen am Quellcode vor. Oft findet man dafür auch die Bezeichnung Working Directory.
+HEAD		:Eine symbolische Referenz auf den neuesten Commit im aktuellen Branch. Von dieser Referenz hängt ab, welche Dateien Sie im Working Tree zur Bearbeitung vorfinden. Es handelt sich also um den „Kopf“ bzw. die Spitze eines Entwicklungsstrangs.
 - git Befehle für die Arbeit mit lokalen Repositories (inkl. Erläuterungen)
+git init: erstellt ein neues Repository
 - git Befehle für die Arbeit mit entfernten Repositories (inkl. Erläuterungen)
-
-git clone <url>: Klont bzw. kopiert ein Repository in ein neu erzeugtes Verzeichnis
-git push: 
-git fetch: Erlaubt es Änderungen aus einem enfernten Repository in das lokale abzulegen
-git merge: Dadurch integriert man die Änderungen in das Repository
-git pull: Man kann damit die Änderungen aus einem enfernten Repo abholen und mit dem eigenen Workspace bzw. den Dateien an denen man gerade arbeitet synchronisieren. Kurz gesagt: git pull: git fetch + git merge
 
 ## TODO2
 - Fachbegriffe OOP erklären (mit Beispielen)
