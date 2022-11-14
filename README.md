@@ -10,6 +10,12 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 ## TODO
 - Begriffe definieren und erklären (z.B. repository, branch etc.)
 - git Befehle für die Arbeit mit lokalen Repositories (inkl. Erläuterungen)
+git init: erstellt ein neues Repository
+git add: fügt Veränderungen einer oder mehreren Dateien/Ordner von der working area in die staging area hinzu
+git commit (-m "message"): erstellt eine neue Version einer oder mehreren Dateien/Ordner im Repository
+git branch (name): erstellt einen neuen Branch (Namensschild -> zeigt auf einen Commit)
+git merge: führt zwei verschiedene commits zusammen
+git checkout (commitname): springt zum commit (Zeitpunkt der Version im Repository)
 - git Befehle für die Arbeit mit entfernten Repositories (inkl. Erläuterungen)
 
 git clone <url>: Klont bzw. kopiert ein Repository in ein neu erzeugtes Verzeichnis
