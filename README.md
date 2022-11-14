@@ -17,10 +17,10 @@ Working Dire:Das Arbeitsverzeichnis von Git (in anderen Systemen manchmal auch S
 HEAD		:Eine symbolische Referenz auf den neuesten Commit im aktuellen Branch. Von dieser Referenz hängt ab, welche Dateien Sie im Working Tree zur Bearbeitung vorfinden. Es handelt sich also um den „Kopf“ bzw. die Spitze eines Entwicklungsstrangs.
 - git Befehle für die Arbeit mit lokalen Repositories (inkl. Erläuterungen)
 git init: erstellt ein neues Repository
-- git Befehle für die Arbeit mit entfernten Repositories (inkl. Erläuterungen)
 
+- git Befehle für die Arbeit mit entfernten Repositories (inkl. Erläuterungen)
 git clone <url>: Klont bzw. kopiert ein Repository in ein neu erzeugtes Verzeichnis
-git push: 
+git push: Benutzt man um Inhalte aus einem lokalen Repo in ein Remote-Repository hochzuladen. Man überträgt also alle commits
 git fetch: Erlaubt es Änderungen aus einem enfernten Repository in das lokale abzulegen
 git merge: Dadurch integriert man die Änderungen in das Repository
 git pull: Man kann damit die Änderungen aus einem enfernten Repo abholen und mit dem eigenen Workspace bzw. den Dateien an denen man gerade arbeitet synchronisieren. Kurz gesagt: git pull: git fetch + git merge
