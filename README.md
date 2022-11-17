@@ -46,4 +46,13 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
   - override
   Bei override werden Methoden aus der Mutterklasse überschrieben. Beispiel: public override void Methodenname()
   - Polymorphie
+	bezeichnet Methodenaufrufe, mit der selben Bezeichnung, jedoch unterschiedlicher Anzahl an Übergabeparametern. 
+	Das nennnt sich auch Überladung und dient dazu bei einem Konstruktoraufruf, wenn ein neues Objekt erstellt wird, beispielsweise 
+	beim Hinzufügen eines Artikels in den Warenkorb ohne Angabe über die Menge, wird standardmäßig der Wert 1 verwendet. 
+	Das bedeutet man hätte einen Konstruktor mit 2 Übergabeparametern und bei Auswahl der Menge, 3 Übergabeparameter.
 - Wie überschreibt man die Methode `virtual string ToString()`?
+public override string ToString()
+    {
+        TEXT;
+    }
+
