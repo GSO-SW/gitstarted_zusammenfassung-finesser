@@ -40,6 +40,7 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
   - abstract (Klassen)
   Als Abstrakte Klasse wird eine Klasse bezeichnet, von der keine Objekte erzeugt werden können. Diese Klassen sind nicht „vollständig“ genug, um Objekte zu instanziieren.
   - abstract (Methoden)
+  Abstrakte Methoden legen lediglich die Signatur der Methode fest, ohne sie zu implementieren. Sie sind durch das Schlüsselwort abstract gekennzeichnet und haben keinen Rumpf (Anweisungsblock).
   - virtual
   - override
   - Polymorphie
