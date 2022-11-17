@@ -38,6 +38,7 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 ## TODO2
 - Fachbegriffe OOP erklären (mit Beispielen)
   - abstract (Klassen)
+  Als Abstrakte Klasse wird eine Klasse bezeichnet, von der keine Objekte erzeugt werden können. Diese Klassen sind nicht „vollständig“ genug, um Objekte zu instanziieren.
   - abstract (Methoden)
   - virtual
   - override
