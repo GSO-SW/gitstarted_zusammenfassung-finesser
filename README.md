@@ -42,6 +42,7 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
   - abstract (Methoden)
   Abstrakte Methoden legen lediglich die Signatur der Methode fest, ohne sie zu implementieren. Sie sind durch das Schlüsselwort abstract gekennzeichnet und haben keinen Rumpf (Anweisungsblock). Beispiel: public Abstract Datentyp Methodenname();
   - virtual
+  Bei virtual können Kinderklassen die Methode überschreiben. public virtual void Methodenname()
   - override
   Bei override werden Methoden aus der Mutterklasse überschrieben. Beispiel: public override void Methodenname()
   - Polymorphie
